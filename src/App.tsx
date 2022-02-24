@@ -1,11 +1,15 @@
 import React from 'react';
+import styled from "styled-components";
+import Circle from './Circle';
+
 
 function App() {
-  return (
-    <div className="App">
-      Heloo
+  return(
+    <div>
+      <Circle bgColor="tomato"/>
+      <Circle bgColor="skyblue" />
     </div>
-  );
+    );
 }
 
 export default App;
